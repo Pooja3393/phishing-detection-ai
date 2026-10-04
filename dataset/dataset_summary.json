@@ -1,0 +1,31 @@
+{
+  "original_images": 1697,
+  "removed_exact_duplicates": 322,
+  "unique_images": 1375,
+  "unique_domains": 1344,
+  "split_counts": {
+    "train": {
+      "total": 962,
+      "legitimate": 680,
+      "phishing": 282,
+      "domains": 931
+    },
+    "validation": {
+      "total": 207,
+      "legitimate": 146,
+      "phishing": 61,
+      "domains": 207
+    },
+    "test": {
+      "total": 206,
+      "legitimate": 146,
+      "phishing": 60,
+      "domains": 206
+    }
+  },
+  "domain_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  }
+}
